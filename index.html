@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Document</title>
+                    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+                    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class=" bg-red-600 min-h-screen">
+                   <main class= "container mx-auto ">
+                    <section class="flex max-w-screen-lg mx-auto gap-6 ">
+                                        <div class="w-3/12 bg-black mt-10 rounded-xl text-white">
+                                                            <h1 class="text-center text-2xl text-gray-500 font-extrabold">BILLIONAIRE <br>DIARY
+                                                            </h1>
+                                        <div class="flex flex-col gap-6 mt-5 mb-5 justify-center">
+                    <button onclick="AddAUser()" class=" bg-white w-10/12 mx-auto py-3 text-black rounded-xl">Add a user<p>(randomly)</p></button>
+                    
+                    <button onclick="DoubleMoney()" class=" bg-white w-10/12 mx-auto rounded-xl py-3 text-black">Double Money</button>
+
+                    <button onclick="SortByRank()" class=" bg-white w-10/12 mx-auto rounded-xl py-3 text-black">Sort by rank <p>descending</p></button>
+
+                    <button onclick="CalculateEntireWealth()" class=" bg-white w-10/12 mx-auto rounded-xl py-3 text-black mb-10">Calculate Entire wealth</button>
+
+                    <button onclick="ShowAllBillionaire()" class=" bg-white w-10/12 mx-auto rounded-xl py-3 text-black">Show all billionaire</button>
+
+                    <button onclick="RichestByIndustry()" class=" bg-white w-10/12 mx-auto rounded-xl py-3 text-black">Richest by Industry<p>(technology)</p></button>
+
+                    <button onclick="RichestByStates()" class=" bg-white w-10/12 mx-auto rounded-xl py-3 text-black">Richest by States(Texas)</button>
+
+                                        </div>
+                                        </div>
+                                        <div class="w-9/12 mt-10 bg-gray-400 rounded-xl text-blue-700">
+
+                                        </div>
+                    </section>
+                   </main>
+       <script src="script.js"></script>            
+</body>
+</html>
